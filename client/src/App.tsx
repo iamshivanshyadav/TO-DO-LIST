@@ -23,7 +23,7 @@ const App = () => (
 );
 function Main() {
   const { user } = useUser();
-  const username = user?.username;
+  const username = user?.username||"";
   return (
     <div>
       <div className="bg-[#ACE2E1] p-4">
